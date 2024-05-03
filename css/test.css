@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    height: 5000px;
+}
+.navbar{
+    background-color: black;
+   
+    align-items: center;
+    position: sticky;
+    height: 35px;
+    top:0;
+   
+}
+.x{
+    display: flex;
+    justify-content:space-between;
+}
+.logo{
+    
+    width:20%;
+    
+}
+.list{
+    
+    width:40%
+}
+.list ul{
+list-style-type: none;
+display:flex;
+
+    justify-content: space-around;
+
+}
+ .list li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all .3s ease 0s ;
+}
+
+.list li a:hover
+{
+    color:rgba(254, 209, 54, 1)
+
+}
+.portfolio{
+    text-align: center;
+    
+}
+.portfolio p{
+    margin-bottom: 20px;
+}
+.port-items{
+    display: flex;
+    flex-wrap: wrap;
+   row-gap: 20px;
+    
+   
+}
+.port-item{
+    
+   position: relative;
+    padding: 5px;
+    
+    width:32.3%;
+}
+.port-item img{
+    
+   
+    display:flex;
+    width:100%;
+}
+.container{
+    margin:auto;
+    width:80%;
+    
+    
+}
+.logo img{
+    display:flex;
+
+}
+.item-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color:aliceblue;
+    background-color: rgba(254, 209, 54, .9);
+    opacity:1;
+    font-size: 20px;
+    opacity: 0;
+}
+.item-content:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
