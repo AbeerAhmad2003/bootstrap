@@ -7,24 +7,24 @@ body{
 }
 .navbar{
     background-color: black;
-   
+
     align-items: center;
     position: sticky;
     height: 35px;
     top:0;
-   
+
 }
 .x{
     display: flex;
     justify-content:space-between;
 }
 .logo{
-    
+
     width:20%;
-    
+
 }
 .list{
-    
+
     width:40%
 }
 .list ul{
@@ -50,7 +50,7 @@ display:flex;
 }
 .portfolio{
     text-align: center;
-    
+
 }
 .portfolio p{
     margin-bottom: 20px;
@@ -59,27 +59,27 @@ display:flex;
     display: flex;
     flex-wrap: wrap;
    row-gap: 20px;
-    
-   
+
+
 }
 .port-item{
-    
+
    position: relative;
     padding: 5px;
-    
+
     width:32.3%;
 }
 .port-item img{
-    
-   
+
+
     display:flex;
     width:100%;
 }
 .container{
     margin:auto;
     width:80%;
-    
-    
+
+
 }
 .logo img{
     display:flex;
@@ -104,6 +104,24 @@ display:flex;
     opacity: 1;
     cursor: pointer;
 }
+.header{
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 1520px;
+    background-position:0 -20px ;
+    background-attachment:fixed;
+    height: 100vb;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.header p{
+    color:aliceblue;
+    font-size: 23px;
+}
+.header h1{
+    color:aliceblue;
+    margin-left:33px;
 
-
+}
 
